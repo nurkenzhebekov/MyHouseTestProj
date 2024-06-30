@@ -1,4 +1,4 @@
-package com.example.myhousetestproj.ui
+package com.example.myhousetestproj.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.myhousetestproj.databinding.FragmentMyHouseBinding
+import com.example.myhousetestproj.ui.CategoriesVPAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 
 class MyHouseFragment : Fragment() {
